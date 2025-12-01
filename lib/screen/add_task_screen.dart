@@ -6,7 +6,9 @@ class AddTaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: const Text(
           "Add New Task",
           style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),

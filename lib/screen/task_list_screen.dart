@@ -7,7 +7,9 @@ class TaskListScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: const Text(
           "To-Do List",
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
